@@ -1,0 +1,26 @@
+Half pyramid of * 
+Half pyaramid of numbers
+Half pyaramid of alphabets
+Inverted half pyramid of*
+Inverted half pyramid of numbers
+Full pyramid of*
+
+Inverted Full pyramid of *
+
+
+Square star pattern{i=1; i<=row; i++, j=1; j<=row; j++}
+
+Hollow square star pattern{
+(i=1; i<=n; i++)
+(j=1; j<=n; j++)
+  if(i == 1 || i == n || j = 1 || j = n) print(* )
+}else{
+print( ) space
+}
+
+{ 
+Floyd's Triangle (i=1; i<=n; i++
+j=1; j<=i; j++
+print(%d, count)
+increment count++)
+}
