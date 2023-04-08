@@ -12,7 +12,6 @@ float areaOfPlate(){
   // Area of plate code goes here
   printf("Enter the radius of the Plate : ");
   scanf("%f", &radius);
-
   return pi * radius * radius;
 
 }

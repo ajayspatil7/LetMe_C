@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define pi 3.14159
-float radius, result;
 
+float radius, result;
 float plateArea();
 float tinVolume();
 

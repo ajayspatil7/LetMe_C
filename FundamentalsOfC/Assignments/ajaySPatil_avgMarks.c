@@ -3,6 +3,23 @@
 
 void average(int mark1, int mark2, int mark3);
 
+void average(int mark1, int mark2, int mark3) {
+  
+  float avg = (mark1 + mark2 + mark3) / 3.0;
+
+  
+  if (avg > 18) {
+    printf("Excellent\n");
+  } else if (avg >= 15 && avg <= 18) {
+    printf("Very Good\n");
+  } else if (avg >= 10 && avg < 15) {
+    printf("Good, can improve\n");
+  } else {
+    printf("You need to work harder\n");
+  }
+}
+
+
 int main() {
   int sub1, sub2, sub3;
 
@@ -20,19 +37,3 @@ int main() {
   return 0;
 }
 
-
-void average(int mark1, int mark2, int mark3) {
-  
-  float avg = (mark1 + mark2 + mark3) / 3.0;
-
-  
-  if (avg > 18) {
-    printf("Excellent\n");
-  } else if (avg >= 15 && avg <= 18) {
-    printf("Very Good\n");
-  } else if (avg >= 10 && avg < 15) {
-    printf("Good, can improve\n");
-  } else {
-    printf("You need to work harder\n");
-  }
-}

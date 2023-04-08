@@ -1,8 +1,6 @@
 #include<stdio.h>
 #define pi 3.141592
 
-
-
 float platearea(float);
 float tinvol(float);
 

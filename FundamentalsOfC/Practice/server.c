@@ -1,3 +1,13 @@
+/* 
+
+This is a program I have wrote
+for something else,
+It's an advance program. Not recomended uf you are a begineer
+But, you are free to look through.
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
